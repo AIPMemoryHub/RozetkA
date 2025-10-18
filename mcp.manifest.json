@@ -1,0 +1,13 @@
+{
+  "name": "aip-memory-hub",
+  "version": "0.1.0",
+  "tools": [
+    { "name": "publishEpisode", "args": ["json"] },
+    { "name": "searchEpisodes", "args": ["query"] },
+    { "name": "getEpisode", "args": ["cid"] },
+    { "name": "reuse", "args": ["cid"] },
+    { "name": "linkSources", "args": ["cid", "sources[]"] },
+    { "name": "federateKG", "args": ["cid"] }
+  ],
+  "permissions": { "publish": true, "read": true }
+}
